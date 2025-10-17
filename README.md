@@ -15,9 +15,10 @@ Built as part of the **HNG Internship Stage 0** task.
 ---
 
 # HOW TO RUN LOCALLY 
-
-- git clone git@github.com:Elderusr/HNG-internshit-stage_0.git
-- cd HNG-internshit-stage_0
-- npm init -y
-- node server.js
-- open http://localhost:3000/me
+```bash
+git clone https://github.com/Elderusr/HNG-internshit-stage_0.git
+cd HNG-internshit-stage_0
+npm init -y
+node server.js
+```
+open `http://localhost:3000/me`
