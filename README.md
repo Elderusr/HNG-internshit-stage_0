@@ -22,3 +22,5 @@ npm init -y
 node server.js
 ```
 open `http://localhost:3000/me`
+
+using static ip for test
