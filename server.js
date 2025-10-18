@@ -1,4 +1,5 @@
 const http = require("http");
+const fixedWindow = require("./fixed-window");
 
 const PORT = 3000;
 
@@ -16,7 +17,7 @@ const server = http.createServer(async (req, res) => {
   res.setHeader("Access-Control-Allow-Origin", "*");
   res.setHeader("Content-Type", "application/json");
 
-  if (req.url === "/me" && req.method === "GET") {
+  if (req.url === "/me" && req.method === "GET" ) {
     try {
       // Fetch cat fact
       const catFact = await getCatFact();
